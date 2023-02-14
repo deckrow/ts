@@ -74,6 +74,7 @@ var ITDepartment = /** @class */ (function (_super) {
     ITDepartment.creationDate = '2022';
     return ITDepartment;
 }(Department));
+// singleton instance
 var it = ITDepartment.getInstance();
 // const it = new ITDepartment('d1', ['Den']);
 it.describe();
